@@ -1,0 +1,39 @@
+# Step 3.A.2 - use grep to isolate losses from March 10, 12, 15
+# used grep -e - 031*_win_loss_player_data to retrieve all losses with losses from all relevant files at once
+
+# Step 3.A.3 - Place those results in a file called Roulette_Losses
+# used grep -e - 031*_win_loss_player_data > Roulette_Losses to place these lines in a new file called Roulette_Losses
+
+
+
+# Step 3.A.4 part 1 - "times the losses occurred each day"
+Losses were incurred at the following dates and times
+# Used awk '{print $1,$2}' Roulette_Losses >> Notes_Player_Analysis to print the following lines
+0310_win_loss_player_data:05:00:00 AM
+0310_win_loss_player_data:08:00:00 AM
+0310_win_loss_player_data:02:00:00 PM
+0310_win_loss_player_data:08:00:00 PM
+0310_win_loss_player_data:11:00:00 PM
+0312_win_loss_player_data:05:00:00 AM
+0312_win_loss_player_data:08:00:00 AM
+0312_win_loss_player_data:02:00:00 PM
+0312_win_loss_player_data:08:00:00 PM
+0312_win_loss_player_data:11:00:00 PM
+0315_win_loss_player_data:05:00:00 AM
+0315_win_loss_player_data:08:00:00 AM
+0315_win_loss_player_data:02:00:00 PM
+
+
+# Step 3.A.4 part 2 - "Is there a certain player that was playing during each of those times?"
+# Used personal visual analysis looking at files to find individual whose name appeared in each line
+Mylie Schmidt was playing during each of these times.
+
+
+# Step 3.A.4 part 3 - total count of times this player was playing
+# used grep 'Mylie Schmidt' 031*_win_loss_player_data | wc -l 
+# in the Roulette_Player_WinLoss_0310 directories to return total count of times this player was playing for all dates we have data for
+Mylie Schmidt played a total of 34 times between 0310 and 0317
+
+# used grep 'Mylie Schmidt' 0310_win_loss_player_data 0312_win_loss_player_data 0315_win_loss_player_data | wc -l 
+# in Roulette_Player_WinLoss_0310 directory to return total count of times this player was playing on the 3 dates in question (0310, 0312, 0315)
+Mylie Schmidt played a total of 19 times on 0310, 0312, and 0315

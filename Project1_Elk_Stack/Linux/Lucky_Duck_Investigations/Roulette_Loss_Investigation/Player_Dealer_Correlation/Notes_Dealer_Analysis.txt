@@ -1,0 +1,22 @@
+# used awk '{print $3,$4}' Dealers_working_during_losses to print the following lines, indicating the Roulette dealer during all loses on 0310, 0312, and 0315
+# lines preceding the data were removed for clarity
+Billy Jones
+Billy Jones
+Billy Jones
+Billy Jones
+Billy Jones
+Billy Jones
+Billy Jones
+Billy Jones
+Billy Jones
+Billy Jones
+Billy Jones
+Billy Jones
+Billy Jones
+
+# Step 3.B.5.i
+Primary Roulette Dealer during losses on the dates in question: Billy Jones
+# Step 3.B.5.ii
+This dealer worked the Roulette Table during every hour of loss on the dates in question
+13 instances of major losses
+*major losses defined as >$65,000 in one hour at the Roulette Table*

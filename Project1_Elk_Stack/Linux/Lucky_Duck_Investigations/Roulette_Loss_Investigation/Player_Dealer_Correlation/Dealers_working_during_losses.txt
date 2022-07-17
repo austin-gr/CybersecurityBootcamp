@@ -1,0 +1,17 @@
+# run sh 0310_05AM.sh >> Dealers_working_during_losses for each file, changing for file name each time
+
+
+
+05:00:00 AM Billy Jones
+08:00:00 AM Billy Jones
+02:00:00 PM Billy Jones
+08:00:00 PM Billy Jones
+11:00:00 PM Billy Jones
+05:00:00 AM Billy Jones
+08:00:00 AM Billy Jones
+02:00:00 PM Billy Jones
+08:00:00 PM Billy Jones
+11:00:00 PM Billy Jones
+05:00:00 AM Billy Jones
+08:00:00 AM Billy Jones
+02:00:00 PM Billy Jones
