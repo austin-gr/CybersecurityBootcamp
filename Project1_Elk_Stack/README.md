@@ -6,7 +6,8 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to recreate the entire deployment pictured above. Alternatively, select portions of the Ansible file may be used to install only certain pieces of it, such as Filebeat.
 
-  - Hosts file to configure Ansible on the JumpBox - https://github.com/austin-gr/CybersecurityBootcamp/blob/main/Project1_Elk_Stack/Ansible/hosts_on_jumpbox.txt
+  - Hosts file to configure Ansible on the JumpBox - ![Alt text](/Ansible/hosts_on_jumpbox.txt "hosts on Jumpbox")
+  https://github.com/austin-gr/CybersecurityBootcamp/blob/main/Project1_Elk_Stack/Ansible/hosts_on_jumpbox.txt
   - Configure Ansible on the JumpBox - https://github.com/austin-gr/CybersecurityBootcamp/blob/main/Project1_Elk_Stack/Ansible/ansible_ansible_config.cfg
   - Hosts file to configure ELK stack from Ansible container - https://github.com/austin-gr/CybersecurityBootcamp/blob/main/Project1_Elk_Stack/Ansible/hosts_on_ansible_container.txt
   - Configure ELK Stack on Ansible container - https://github.com/austin-gr/CybersecurityBootcamp/blob/main/Project1_Elk_Stack/Ansible/ansible_ELKconfig.cfg
