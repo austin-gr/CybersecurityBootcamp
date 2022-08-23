@@ -15,8 +15,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
   - Playbook to configure filebeat - ![filebeat playbook file](/Ansible/filebeat-playbook.yml "filebeat playbook")
   - metricbeat configuration file - ![metricbeat config file](/Ansible/metricbeat-config.yml "metricbeat config")
   - Playbook to configure metricbeat - ![metricbeat playbook file](/Ansible/metricbeat-playbook.yml "metricbeat playbook")
-  - Playbook to configure Web servers with DVWA (D*mn Vulnerable Web Application) - ![pentest file](/Ansible/pentest.yml "pentest file")
-  https://github.com/austin-gr/CybersecurityBootcamp/blob/main/Project1_Elk_Stack/Ansible/pentest.yml
+  - Playbook to configure Web servers with DVWA (D*mn Vulnerable Web Application) - [pentest file](/Ansible/pentest.yml "pentest file")
 
 This document contains the following details:
 - Description of the Topology
