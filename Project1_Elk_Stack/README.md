@@ -6,15 +6,15 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to recreate the entire deployment pictured above. Alternatively, select portions of the Ansible file may be used to install only certain pieces of it, such as Filebeat.
 
-  - Hosts file to configure Ansible on the JumpBox - ![Hosts on Jumpbox file](/Ansible/hosts_on_jumpbox.txt "hosts on Jumpbox")
-  - Configure Ansible on the JumpBox - ![Ansible config file](/Ansible/ansible_ansible_config.cfg "Ansible Config")
-  - Hosts file to configure ELK stack from Ansible container - ![Hosts on Ansible Container file](/Ansible/hosts_on_ansible_container.txt "Hosts on Ansible Container")
-  - Configure ELK Stack on Ansible container - ![Ansible ELK config file](/Ansible/ansible_ELKconfig.cfg "Ansible ELK config")
-  - Playbook to configure ELK Stack - ![ELK Playbook](/Ansible/ELK-playbook.yml "ELK Playbook")
-  - filebeat configuration file - ![filebeat config file](/Ansible/filebeat-config.yml "filebeat config")
-  - Playbook to configure filebeat - ![filebeat playbook file](/Ansible/filebeat-playbook.yml "filebeat playbook")
-  - metricbeat configuration file - ![metricbeat config file](/Ansible/metricbeat-config.yml "metricbeat config")
-  - Playbook to configure metricbeat - ![metricbeat playbook file](/Ansible/metricbeat-playbook.yml "metricbeat playbook")
+  - Hosts file to configure Ansible on the JumpBox - [Hosts on Jumpbox file](/Ansible/hosts_on_jumpbox.txt "hosts on Jumpbox")
+  - Configure Ansible on the JumpBox - [Ansible config file](/Ansible/ansible_ansible_config.cfg "Ansible Config")
+  - Hosts file to configure ELK stack from Ansible container - [Hosts on Ansible Container file](/Ansible/hosts_on_ansible_container.txt "Hosts on Ansible Container")
+  - Configure ELK Stack on Ansible container - [Ansible ELK config file](/Ansible/ansible_ELKconfig.cfg "Ansible ELK config")
+  - Playbook to configure ELK Stack - [ELK Playbook](/Ansible/ELK-playbook.yml "ELK Playbook")
+  - filebeat configuration file - [filebeat config file](/Ansible/filebeat-config.yml "filebeat config")
+  - Playbook to configure filebeat - [filebeat playbook file](/Ansible/filebeat-playbook.yml "filebeat playbook")
+  - metricbeat configuration file - [metricbeat config file](/Ansible/metricbeat-config.yml "metricbeat config")
+  - Playbook to configure metricbeat - [metricbeat playbook file](/Ansible/metricbeat-playbook.yml "metricbeat playbook")
   - Playbook to configure Web servers with DVWA (D*mn Vulnerable Web Application) - [pentest file](/Ansible/pentest.yml "pentest file")
 
 This document contains the following details:
