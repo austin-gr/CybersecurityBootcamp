@@ -80,7 +80,7 @@ Other configuration modules in the Playbook YAML file increased the memory of th
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-https://github.com/austin-gr/CybersecurityBootcamp/blob/main/Project1_Elk_Stack/Images/docker_ps_output.jpg
+![docker_ps_output.jpg](Images/docker_ps_output.jpg "Docker Output")
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
